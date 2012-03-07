@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.2'
 gem 'pg', '0.13.2'
+gem 'bcrypt-ruby', '3.0.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -40,6 +41,10 @@ gem 'jquery-rails', '2.0.1'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+group :development do
+  gem 'annotate', '~> 2.4.1.beta'
+end
 
 group :test do
   gem 'rspec-rails', '2.8.1'
