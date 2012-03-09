@@ -10,6 +10,7 @@ gem 'bcrypt-ruby', '3.0.1'
 group :development, :test do
   gem 'rspec-rails', '2.8.1'
   gem 'guard-rspec', '0.6.0'
+  gem 'guard-cucumber'
 end
 
 
