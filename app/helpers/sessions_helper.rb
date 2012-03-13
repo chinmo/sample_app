@@ -1,6 +1,6 @@
 module SessionsHelper
 
-  def sign_in(user, remember_me)
+  def sign_in(user, remember_me = false)
     if remember_me
       cookies.permanent[:remember_token] = user.remember_token
     else
