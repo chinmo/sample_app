@@ -25,7 +25,7 @@ group :assets do
   gem 'uglifier', '1.2.4'
 end
 
-gem 'jquery-rails', '2.0.1'
+gem 'jquery-rails', '2.0.2'
 
 # To use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '3.0.1'
@@ -51,9 +51,9 @@ group :test do
   gem 'capybara', '1.1.2'
   gem 'rb-inotify', '0.8.8'
   gem 'libnotify', '0.7.2'
-  gem 'guard-spork', '0.5.2'
+  gem 'guard-spork', '0.6.1'
   gem 'spork', '0.9.0'
-  gem 'factory_girl_rails', '3.0.0'
+  gem 'factory_girl_rails', '3.1.0'
   gem 'cucumber-rails', '1.3.0'
   gem 'database_cleaner', '0.7.2'
   gem 'simplecov', :require => false
